@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { navLinks } from "../constants";
 import { styles } from "../styles";
 import { logo, menu, close } from "../assets";
+import resume from "../../public/resume2.pdf";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
             <span className="sm:block hidden">|&nbsp;Kulshrestha</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-8">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -34,8 +35,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li
+            className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}>
+            <a href={resume} download="resume" target="_blank" rel="noreferrer">
+              Download CV
+            </a>
+          </li>
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -61,6 +68,17 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li
+                className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setToggle(!toggle)}>
+                <a
+                  href={resume}
+                  download="resume"
+                  target="_blank"
+                  rel="noreferrer">
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>
