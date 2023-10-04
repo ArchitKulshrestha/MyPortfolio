@@ -7,7 +7,6 @@ import {
   Navbar,
   Works,
   Tech,
-  StarsCanvas,
 } from "./components/index";
 
 const App = () => {
@@ -24,8 +23,9 @@ const App = () => {
         <Works />
 
         <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
+          <div className="bg-star-pattern bg-cover bg-no-repeat bg-center">
+            <Contact />
+          </div>
         </div>
       </div>
     </BrowserRouter>

@@ -19,7 +19,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import UE5 from "./tech/UE5.png";
+import Nextjs from "./tech/Nextjs.png";
+import ChakraUI from "./tech/ChakraUI.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -27,9 +29,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import SRC from "./company/SRC.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import GameHub from "./Projects/GameHub.png";
+import ExpenseTracker from "./Projects/ExpenseTracker.png";
+
+import SRCsyn from "./Projects/SRCsyn.png";
 
 export {
   logo,
@@ -52,13 +55,15 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  GameHub,
+  ExpenseTracker,
+  SRCsyn,
   SRC,
+  UE5,
+  Nextjs,
+  ChakraUI,
 };
