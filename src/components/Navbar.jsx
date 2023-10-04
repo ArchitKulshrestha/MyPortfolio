@@ -3,7 +3,7 @@ import { useState } from "react";
 import { navLinks } from "../constants";
 import { styles } from "../styles";
 import { logo, menu, close } from "../assets";
-import resume from "../../public/resume2.pdf";
+import resume from "../assets/resume2.pdf";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
