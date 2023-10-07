@@ -219,6 +219,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://gamehub-lemon.vercel.app/",
     image: GameHub,
     source_code_link: "https://github.com/ArchitKulshrestha/GameSearchEngine",
   },
@@ -240,6 +241,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://www.synergiconsrc2023.com/",
     image: SRCsyn,
     source_code_link: "https://github.com/",
   },
@@ -261,8 +263,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://tracker-rose-xi.vercel.app/",
     image: ExpenseTracker,
-    source_code_link: "https://github.com/ArchitKulshrestha/tracker",
+    source_code_link: "https://github.com/ArchitKulshrestha/ExpenseTracker",
   },
 ];
 
