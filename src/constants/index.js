@@ -246,7 +246,7 @@ const projects = [
   {
     name: "Expense Tracker",
     description:
-      "Web Application to track your expenses for better budgeting .",
+      "Web Application to add and delete expenses so you can track in which category you spent and how much you spent   .",
     tags: [
       {
         name: "ReactJs",
