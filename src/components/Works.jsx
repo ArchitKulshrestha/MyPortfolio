@@ -51,7 +51,9 @@ const ProjectCard = ({
         </div>
         <a
           className="border rounded-md px-2 py-.5  text-secondary text-[18px] hover:bg-secondary hover:text-inherit transition-all duration-300 ease-in-out"
-          href={`${link}`}>
+          href={`${link}`}
+          target="_blank"
+          rel="noreferrer">
           Link
         </a>
         <div className="mt-4 flex flex-wrap gap-2">
